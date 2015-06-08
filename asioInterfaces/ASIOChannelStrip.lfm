@@ -1,0 +1,32 @@
+object FrChannelStrip: TFrChannelStrip
+  Left = 0
+  Height = 292
+  Top = 0
+  Width = 120
+  ClientHeight = 292
+  ClientWidth = 120
+  TabOrder = 0
+  object TrackBar: TTrackBar
+    Left = 2
+    Height = 257
+    Top = 8
+    Width = 40
+    OnChange = TrackBarChange
+    Orientation = trVertical
+    Position = 0
+    TickMarks = tmBoth
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 0
+  end
+  object CBMute: TCheckBox
+    Left = 15
+    Height = 19
+    Top = 271
+    Width = 20
+    OnClick = CBMuteClick
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 1
+  end
+end

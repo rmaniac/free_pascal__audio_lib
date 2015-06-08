@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="audioasio"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value=".;.."/>
+        <OtherUnitFiles Value="."/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\$(LCLWidgetType)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files Count="8">
+      <Item1>
+        <Filename Value="ASIO.pas"/>
+        <UnitName Value="ASIO"/>
+      </Item1>
+      <Item2>
+        <Filename Value="BeRoASIO.pas"/>
+        <UnitName Value="BeRoASIO"/>
+      </Item2>
+      <Item3>
+        <Filename Value="DASIOGenerator.pas"/>
+        <UnitName Value="DASIOGenerator"/>
+      </Item3>
+      <Item4>
+        <Filename Value="DASIOHost.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="DASIOHost"/>
+      </Item4>
+      <Item5>
+        <Filename Value="DASIORegister.pas"/>
+        <UnitName Value="DASIORegister"/>
+      </Item5>
+      <Item6>
+        <Filename Value="..\ASIOVST.inc"/>
+        <Type Value="Include"/>
+      </Item6>
+      <Item7>
+        <Filename Value="ASIOChannelStrip.pas"/>
+        <UnitName Value="ASIOChannelStrip"/>
+      </Item7>
+      <Item8>
+        <Filename Value="ASIOMixer.pas"/>
+        <UnitName Value="ASIOMixer"/>
+      </Item8>
+    </Files>
+    <RequiredPkgs Count="1">
+      <Item1>
+        <PackageName Value="audiodsp"/>
+      </Item1>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

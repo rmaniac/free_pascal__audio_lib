@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="analyser.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="analyser"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="AnalyserForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FmAnalyser"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="AnalyserForm"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="190"/>
+        <CursorPos Y="70"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="C:\codetyphon\typhon\components\lz_taChart\source\tagraph.pas"/>
+        <UnitName Value="TAGraph"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="265"/>
+        <CursorPos X="9" Y="171"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="11" HistoryIndex="10">
+      <Position1>
+        <Filename Value="AnalyserForm.pas"/>
+        <Caret TopLine="52"/>
+      </Position1>
+      <Position2>
+        <Filename Value="AnalyserForm.pas"/>
+        <Caret Line="9" Column="39"/>
+      </Position2>
+      <Position3>
+        <Filename Value="AnalyserForm.pas"/>
+        <Caret Line="12" Column="53"/>
+      </Position3>
+      <Position4>
+        <Filename Value="AnalyserForm.pas"/>
+        <Caret Line="25" Column="24"/>
+      </Position4>
+      <Position5>
+        <Filename Value="AnalyserForm.pas"/>
+        <Caret Line="122" Column="26" TopLine="106"/>
+      </Position5>
+      <Position6>
+        <Filename Value="AnalyserForm.pas"/>
+        <Caret Line="25" Column="5" TopLine="9"/>
+      </Position6>
+      <Position7>
+        <Filename Value="AnalyserForm.pas"/>
+        <Caret Line="122" Column="26" TopLine="106"/>
+      </Position7>
+      <Position8>
+        <Filename Value="AnalyserForm.pas"/>
+        <Caret Line="123" Column="25" TopLine="107"/>
+      </Position8>
+      <Position9>
+        <Filename Value="AnalyserForm.pas"/>
+        <Caret Line="118" Column="64" TopLine="107"/>
+      </Position9>
+      <Position10>
+        <Filename Value="AnalyserForm.pas"/>
+        <Caret Line="220" Column="27" TopLine="189"/>
+      </Position10>
+      <Position11>
+        <Filename Value="AnalyserForm.pas"/>
+        <Caret Line="169" TopLine="147"/>
+      </Position11>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,12 @@
+Hint: * Konvertiere Datei E:\vstdev\freepascalaudiolibrary\vst2interface\DVSTPluginWizardFrm.pas *
+Hint: Unit "Windows" mit "LCLIntf, LCLType, LMessages" im uses Abschnitt ersetzt.
+Hint: Aufruf ForceDirectories(edtProjectPath.Text); mit ForceDirectoriesUTF8(edtProjectPath.Text); { *Konvertiert von ForceDirectories* } ersetzt
+Hint: Unit FileUtil zum uses Abschnitt hinzugefügt
+Hint: Aufruf DirectoryExists(edtProjectPath.Text) mit DirectoryExistsUTF8(edtProjectPath.Text) { *Konvertiert von DirectoryExists* } ersetzt
+Hint: * Repariere Form-Datei E:\vstdev\freepascalaudiolibrary\vst2interface\DVSTPluginWizardFrm.lfm *
+Hint: Eigenschaft "Style" entfernt.
+Hint: Eigenschaft "DesignSize" entfernt.
+Hint: Eigenschaft "TextHeight" entfernt.
+Hint: Eigenschaft "OldCreateOrder" entfernt.
+Hint: * Berichtigung der verwendeten Units für Datei E:\vstdev\freepascalaudiolibrary\vst2interface\DVSTPluginWizardFrm.pas *
+Hint: Conversion Ready.

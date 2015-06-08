@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="audiocore"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value=".."/>
+        <OtherUnitFiles Value="."/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\$(LCLWidgetType)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files Count="6">
+      <Item1>
+        <Filename Value="DAVDCommon.pas"/>
+        <UnitName Value="DAVDCommon"/>
+      </Item1>
+      <Item2>
+        <Filename Value="DAVDComplex.pas"/>
+        <UnitName Value="DAVDComplex"/>
+      </Item2>
+      <Item3>
+        <Filename Value="MidiFile.pas"/>
+        <UnitName Value="MidiFile"/>
+      </Item3>
+      <Item4>
+        <Filename Value="..\ASIOVST.inc"/>
+        <Type Value="Include"/>
+      </Item4>
+      <Item5>
+        <Filename Value="DAVDBufferMathPascal.pas"/>
+        <UnitName Value="DAVDBufferMathPascal"/>
+      </Item5>
+      <Item6>
+        <Filename Value="DAVDProcessingComponent.pas"/>
+        <UnitName Value="DAVDProcessingComponent"/>
+      </Item6>
+    </Files>
+    <RequiredPkgs Count="1">
+      <Item1>
+        <PackageName Value="LCLBase"/>
+      </Item1>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

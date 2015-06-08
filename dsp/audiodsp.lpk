@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="audiodsp"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value=".."/>
+        <OtherUnitFiles Value="."/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\$(LCLWidgetType)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files Count="32">
+      <Item1>
+        <Filename Value="DDspBaseComponent.pas"/>
+        <UnitName Value="DDspBaseComponent"/>
+      </Item1>
+      <Item2>
+        <Filename Value="DDSPBaseOsc.pas"/>
+        <UnitName Value="DDSPBaseOsc"/>
+      </Item2>
+      <Item3>
+        <Filename Value="DDspBesselFilter.pas"/>
+        <UnitName Value="DDspBesselFilter"/>
+      </Item3>
+      <Item4>
+        <Filename Value="DDspButterworthFilter.pas"/>
+        <UnitName Value="DDspButterworthFilter"/>
+      </Item4>
+      <Item5>
+        <Filename Value="DDspChebyshevFilter.pas"/>
+        <UnitName Value="DDspChebyshevFilter"/>
+      </Item5>
+      <Item6>
+        <Filename Value="DDspDFT.pas"/>
+        <UnitName Value="DDspDFT"/>
+      </Item6>
+      <Item7>
+        <Filename Value="DDspDitherNoiseShaper.pas"/>
+        <UnitName Value="DDspDitherNoiseShaper"/>
+      </Item7>
+      <Item8>
+        <Filename Value="DDspDynamics.pas"/>
+        <UnitName Value="DDspDynamics"/>
+      </Item8>
+      <Item9>
+        <Filename Value="DDspEnvelope.pas"/>
+        <UnitName Value="DDspEnvelope"/>
+      </Item9>
+      <Item10>
+        <Filename Value="DDspEnvelopeFollower.pas"/>
+        <UnitName Value="DDspEnvelopeFollower"/>
+      </Item10>
+      <Item11>
+        <Filename Value="DDspFFT.pas"/>
+        <UnitName Value="DDspFFT"/>
+      </Item11>
+      <Item12>
+        <Filename Value="DDspFilter.pas"/>
+        <UnitName Value="DDspFilter"/>
+      </Item12>
+      <Item13>
+        <Filename Value="DDspInterpolation.pas"/>
+        <UnitName Value="DDspInterpolation"/>
+      </Item13>
+      <Item14>
+        <Filename Value="DDspMetronome.pas"/>
+        <UnitName Value="DDspMetronome"/>
+      </Item14>
+      <Item15>
+        <Filename Value="DDspMinBlep.pas"/>
+        <UnitName Value="DDspMinBlep"/>
+      </Item15>
+      <Item16>
+        <Filename Value="DDSPOscAbsSine.pas"/>
+        <UnitName Value="DDSPOscAbsSine"/>
+      </Item16>
+      <Item17>
+        <Filename Value="DDSPOscNoise.pas"/>
+        <UnitName Value="DDSPOscNoise"/>
+      </Item17>
+      <Item18>
+        <Filename Value="DDSPOscRamp.pas"/>
+        <UnitName Value="DDSPOscRamp"/>
+      </Item18>
+      <Item19>
+        <Filename Value="DDSPOscSaw.pas"/>
+        <UnitName Value="DDSPOscSaw"/>
+      </Item19>
+      <Item20>
+        <Filename Value="DDSPOscSine.pas"/>
+        <UnitName Value="DDSPOscSine"/>
+      </Item20>
+      <Item21>
+        <Filename Value="DDSPOscSquare.pas"/>
+        <UnitName Value="DDSPOscSquare"/>
+      </Item21>
+      <Item22>
+        <Filename Value="DDspPhaser.pas"/>
+        <UnitName Value="DDspPhaser"/>
+      </Item22>
+      <Item23>
+        <Filename Value="DDspRegister.pas"/>
+        <UnitName Value="DDspRegister"/>
+      </Item23>
+      <Item24>
+        <Filename Value="DDSPRemez.pas"/>
+        <UnitName Value="DDSPRemez"/>
+      </Item24>
+      <Item25>
+        <Filename Value="DDSPStateVariableFilter.pas"/>
+        <UnitName Value="DDSPStateVariableFilter"/>
+      </Item25>
+      <Item26>
+        <Filename Value="DDspVoice.pas"/>
+        <UnitName Value="DDspVoice"/>
+      </Item26>
+      <Item27>
+        <Filename Value="DDspVoiceController.pas"/>
+        <UnitName Value="DDspVoiceController"/>
+      </Item27>
+      <Item28>
+        <Filename Value="DDspVoiceList.pas"/>
+        <UnitName Value="DDspVoiceList"/>
+      </Item28>
+      <Item29>
+        <Filename Value="DDspWaveshaper.pas"/>
+        <UnitName Value="DDspWaveshaper"/>
+      </Item29>
+      <Item30>
+        <Filename Value="DDspWindowing.pas"/>
+        <UnitName Value="DDspWindowing"/>
+      </Item30>
+      <Item31>
+        <Filename Value="..\ASIOVST.inc"/>
+        <Type Value="Include"/>
+      </Item31>
+      <Item32>
+        <Filename Value="dspinterfaces.pas"/>
+        <UnitName Value="dspinterfaces"/>
+      </Item32>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="audiocore"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

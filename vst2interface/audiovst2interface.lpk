@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="audioVst2Interface"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value=".."/>
+        <OtherUnitFiles Value="."/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\$(LCLWidgetType)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files Count="15">
+      <Item1>
+        <Filename Value="Config.pas"/>
+        <UnitName Value="Config"/>
+      </Item1>
+      <Item2>
+        <Filename Value="DVSTBasicModule.pas"/>
+        <UnitName Value="DVSTBasicModule"/>
+      </Item2>
+      <Item3>
+        <Filename Value="DVSTCustomModule.pas"/>
+        <UnitName Value="DVSTCustomModule"/>
+      </Item3>
+      <Item4>
+        <Filename Value="DVSTEffect.pas"/>
+        <UnitName Value="DVSTEffect"/>
+      </Item4>
+      <Item5>
+        <Filename Value="DVSTEffectFunctions.pas"/>
+        <UnitName Value="DVSTEffectFunctions"/>
+      </Item5>
+      <Item6>
+        <Filename Value="DVSTHost.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="DVSTHost"/>
+      </Item6>
+      <Item7>
+        <Filename Value="DVSTModule.pas"/>
+        <UnitName Value="DVSTModule"/>
+      </Item7>
+      <Item8>
+        <Filename Value="DVSTModuleWithDsp.pas"/>
+        <UnitName Value="DVSTModuleWithDsp"/>
+      </Item8>
+      <Item9>
+        <Filename Value="DVSTModuleWithMidi.pas"/>
+        <UnitName Value="DVSTModuleWithMidi"/>
+      </Item9>
+      <Item10>
+        <Filename Value="DVSTModuleWithPrograms.pas"/>
+        <UnitName Value="DVSTModuleWithPrograms"/>
+      </Item10>
+      <Item11>
+        <Filename Value="DVSTParameters.pas"/>
+        <UnitName Value="DVSTParameters"/>
+      </Item11>
+      <Item12>
+        <Filename Value="DVSTPluginWizardDialog.pas"/>
+        <UnitName Value="DVSTPluginWizardDialog"/>
+      </Item12>
+      <Item13>
+        <Filename Value="DVSTPluginWizardFrm.pas"/>
+        <UnitName Value="DVSTPluginWizardFrm"/>
+      </Item13>
+      <Item14>
+        <Filename Value="DVSTPrograms.pas"/>
+        <UnitName Value="DVSTPrograms"/>
+      </Item14>
+      <Item15>
+        <Filename Value="DVSTShellPlugins.pas"/>
+        <UnitName Value="DVSTShellPlugins"/>
+      </Item15>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="audiocore"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
