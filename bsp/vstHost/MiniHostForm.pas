@@ -290,7 +290,7 @@ var
   p: PVstMidiEvent;
   mi: Integer;
 begin
- ShowMessage(IntToStr(SizeOf( TAudioMasterOpcode)));
+
  fAllowed := False;
  ToolBarBackground.picture.Bitmap.TransparentColor := $A8A8A8;
  ToolBarBackground.picture.Bitmap.Transparent := True;
